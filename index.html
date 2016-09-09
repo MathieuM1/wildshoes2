@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<!-- Bootstrap JS -->	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<!-- Mon css perso -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta name="keywords" content="chausse, pied, chausse-pied, tire-botte, botte, artisanat, made in france">
+	<title>Wild Shoes</title>
+</head>
+<body>
+<header>
+
+  <!-- Navbar -->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Wild Shoes</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+      <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Nos Chausse-pieds <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Bois</a></li>
+            <li><a href="#">Métal</a></li>
+            <li><a href="#">Corne</a></li>
+            <li><a href="#">Téléscopique</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Personnalisation</a></li>
+          </ul>
+        </li>
+        <li class="active"><a href="file:///home/m21/Documents/wildCodeSchool/Projet 1/index.html">Accueil <span class="sr-only">(current)</span></a></li>
+              <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Nos tire-bottes <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Bois</a></li>
+            <li><a href="#">Métal</a></li>
+            <li><a href="#">Grattoir</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Personnalisation</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="navbar-form navbar-left">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Rechercher un article</button>
+      </form>
+    </div><!-- Fin du navbar-collapse -->
+  </div><!-- Fin du container-fluid -->
+</nav><!-- Fin du Navbar -->
+
+  <!-- Jumbotron -->
+<div class="jumbotron">
+	<div class="container">
+		<div class="col-lg-4 col-md-12">
+			<img class="img-responsive logo" src="images/logo.png" alt="logo wild shoes">
+		</div>
+		<div class="col-lg-8 col-md-12">
+			<h1>Chausse qui peut...</h1>
+			<h2>Artisan créateur de chausse-pieds et tire-bottes depuis 1927</h2>
+		</div>
+	</div>
+</div><!-- fin du Jambotron -->
+</header>
+
+<!-- Carousel -->
+    <div id="carousel-example-generic" class="carousel" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="images/chausse_pied_bois2.jpeg" class="img_slide" alt="Chausse pied bois">
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div>
+    <div class="item">
+      <img src="images/chausse-pied-en-corne-veritable.jpg" class="img_slide" alt="Chausse pied corne">
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div>
+    ...
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div><!-- Fin du Carousel -->	
+
+<!--Partie carte des magasins-->
+<div class="maps">
+	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 left_present">
+		<h2>Nos magasins</h2>
+			<p>Nos magasin sont implantés sur toute la France, Cliquez sur un point pour connaitre l'adresse la plus proche de chez vous</p>
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 maps2">	
+	<iframe width="390" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://www.openstreetmap.org/export/embed.html?bbox=1.8395233154296873%2C47.861549245505635%2C1.977710723876953%2C47.94843104036791&amp;layer=mapnik" style="border: 1px solid black"></iframe><br/>	
+	</div>
+</div>
+
+<!--Fin de la carte des magasins-->
+
+<!--Début du footer-->
+<footer>
+<!--Blod de gauche / CGU mentions légales.. -->
+  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 left_bloc">
+    <ul>
+      <a href="#"><li>Mentions légales</li></a>
+      <a href="#"><li>C.G.U.</li></a>
+      <a href="#"><li>A propos de nous</li></a>
+
+    </ul>
+  </div>
+  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 center_bloc">
+    <h1 class="contact">Contactez nous</h1>
+  </div>
+  <!--Bloc de droite / Réseaux sociaux-->
+  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 right_bloc">
+    <a href="http://www.facebook.com"><img class="social" src="images/facebook.png" alt="Facebook"></a>
+    <a href="http://www.twitter.com"><img class="social" src="images/twitter.png" alt="Twitter"></a>
+    <a href="https://fr.pinterest.com/"><img class="social" src="images/pinterest.png" alt="Pinterest"></a>
+  </div>
+  </footer>
+</body>
+</html>
+     

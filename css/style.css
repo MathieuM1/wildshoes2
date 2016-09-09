@@ -1,0 +1,52 @@
+
+h2 {
+	font-size: 150%;
+	text-align: center;
+}
+
+.img_slide {
+	width: 100%;
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.logo {
+	width: 100%;
+	height: 100%;
+}
+
+.carousel {
+	background-color: white;
+}
+
+.center_bloc, .right_bloc, .left_bloc {
+	background-color: black;
+	height: 100px;
+}
+.right_bloc {
+
+}
+
+.left_present {
+	text-align: center;
+	padding: 5%;
+}
+
+.maps2 {
+	text-align: center;
+}
+
+.social {
+	height: 80%;
+	width: 20%;
+}
+
+.contact {
+	font-size: 2em;
+}
+<<<<<<< HEAD
+=======
+
+>>>>>>> d0297cd0c4356b9271afcd8a999157b0e08361da
