@@ -61,6 +61,22 @@ h2 {
 .contact {
 	font-size: 2em;
 }
+.textmodal {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: justify;
+}
+.imgmodal {
+	width: 200px;
+	height: 200px;
+}
+.imgprod {
+	height: 150px;
+	width: 150px;
+}
+.blocimg {
+	
+}
 <<<<<<< HEAD
 =======
 
