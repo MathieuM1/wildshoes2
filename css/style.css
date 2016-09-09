@@ -3,18 +3,10 @@ h1 {
 }
 h2 {
 	font-size: 100%;
-	text-align: center;
-}
-
-.img_slide {
-	width: 100%;
-	height: 100vh;
-	background-size: cover;
-	background-position: center;
-	background-attachment: fixed;
 }
 
 .logo {
+	margin: auto;
 	width: 100vh;
 	height: 20vh;
 	-webkit-filter: drop-shadow(3px 3px 3px white);
@@ -32,8 +24,8 @@ h2 {
 	text-align: center;
 }
 
-.carousel {
-	background-color: white;
+.slogan {
+	margin: 12%;
 }
 
 .center_bloc, .right_bloc, .left_bloc {
