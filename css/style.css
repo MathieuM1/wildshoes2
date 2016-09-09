@@ -1,8 +1,8 @@
 h1 {
-	text-align: center;
+
 }
 h2 {
-	font-size: 150%;
+	font-size: 100%;
 	text-align: center;
 }
 
@@ -16,7 +16,20 @@ h2 {
 
 .logo {
 	width: 100vh;
-	height: 3	0vh;
+	height: 20vh;
+	-webkit-filter: drop-shadow(3px 3px 3px white);
+	filter: drop-shadow(3px 3px 3px white);
+}
+
+
+.jumbotron {
+    background-image: url(jumbo.jpg);
+    opacity: 20px;
+    background-size: cover;
+    font-size: 5vh;
+    text-shadow: 3px 3px 3px white;
+	color: black;
+	text-align: center;
 }
 
 .carousel {
