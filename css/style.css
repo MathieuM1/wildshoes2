@@ -71,13 +71,16 @@ h2 {
 	height: 200px;
 }
 .imgprod {
-	height: 150px;
-	width: 150px;
+	height: 250px;
+	width: 250px;
+	margin: 20px;
 }
 .blocimg {
-	
-}
-<<<<<<< HEAD
-=======
 
->>>>>>> d0297cd0c4356b9271afcd8a999157b0e08361da
+}
+.btn {
+	margin: 20px;
+	box-shadow: 5px 5px 5px black;
+
+
+
