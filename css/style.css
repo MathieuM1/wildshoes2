@@ -1,5 +1,7 @@
-h1 {
 
+
+h1 {
+	text-align: center;
 }
 h2 {
 	font-size: 100%;
@@ -16,8 +18,10 @@ h2 {
 
 .jumbotron {
     background-image: url(jumbo.jpg);
-    opacity: 20px;
     background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+	width: 100%;
     font-size: 5vh;
     text-shadow: 3px 3px 3px white;
 	color: black;
@@ -26,6 +30,34 @@ h2 {
 
 .slogan {
 	margin: 12%;
+}
+
+.presentation {
+	text-align: center;
+	padding: 5%;
+
+}
+
+#produits {
+	text-shadow: 3px 3px 3px white;
+	color: black;
+	text-align: center;
+}
+
+.items {
+	background-image: url(leather.jpg);
+	background-size: cover;
+    background-attachment: fixed;
+}
+
+footer {
+	color: white;
+	list-style: none;
+}
+
+li {
+	list-style: none;
+	color: white;
 }
 
 .center_bloc, .right_bloc, .left_bloc {
@@ -73,6 +105,4 @@ h2 {
 .btn {
 	margin: 20px;
 	box-shadow: 5px 5px 5px black;
-
-
-
+}
