@@ -1,5 +1,5 @@
 h1 {
-
+	text-align: center;
 }
 h2 {
 	font-size: 100%;
@@ -16,8 +16,8 @@ h2 {
 
 .jumbotron {
     background-image: url(jumbo.jpg);
-    opacity: 20px;
     background-size: cover;
+    background-attachment: fixed;
     font-size: 5vh;
     text-shadow: 3px 3px 3px white;
 	color: black;
@@ -28,13 +28,18 @@ h2 {
 	margin: 12%;
 }
 
-.center_bloc, .right_bloc, .left_bloc {
-	background-color: black;
-	height: 100px;
+.presentation {
+	text-align: center;
+	padding: 5%;
 }
-.right_bloc {
 
+#produits {
+	text-shadow: 3px 3px 3px white;
+	color: black;
+	text-align: center;
 }
+
+
 
 .left_present {
 	text-align: center;
@@ -50,9 +55,6 @@ h2 {
 	width: 20%;
 }
 
-.contact {
-	font-size: 2em;
-}
 .textmodal {
 	margin-left: auto;
 	margin-right: auto;
@@ -73,6 +75,7 @@ h2 {
 .back {
 	background-color: grey;
 }
+
 .btn {
 	margin: 20px;
 	box-shadow: 5px 5px 5px black;
@@ -105,4 +108,14 @@ h2 {
 	font-size: 18px;
 	text-align: center;
 	color: #855005;
+}
+
+
+.contact {
+	font-size: 2em;
+}
+
+.center_bloc, .right_bloc, .left_bloc {
+	background-color: black;
+	height: 100px;
 }
