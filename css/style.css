@@ -88,12 +88,12 @@ h2 {
 
 .border {
 	border-style: solid;
-	border-color: black;
+	border-color: #855005;
 	border-radius: 15px 15px 15px 15px;
 	margin: 20px;
-	box-shadow: 4px 4px 4px;
+	box-shadow: 4px 4px 4px white;
 	width: 240px;
-
+	background-color: white;
 }
 
 .button-center {
@@ -103,7 +103,11 @@ h2 {
 
 #bigbloc {
 	padding-left: 130px;
+	background-image: url(leather.jpg);
+	background-size: cover;
+	background-attachment: fixed;
 }
+
 
 .prod_title {
 	font-size: 18px;
