@@ -39,11 +39,7 @@ h2 {
 	text-align: center;
 }
 
-.items {
-	background-image: url(leather.jpg);
-	background-size: cover;
-    background-attachment: fixed;
-}
+
 
 .left_present {
 	text-align: center;
@@ -69,29 +65,51 @@ h2 {
 	height: 200px;
 }
 .imgprod {
-	height: 250px;
-	width: 250px;
+	height: 150px;
+	width: 150px;
 	margin: 20px;
+	padding-left: auto;
+	padding-right: auto;
+	text-align: center;
 }
-.blocimg {
-
+.back {
+	background-color: grey;
 }
 
 .btn {
 	margin: 20px;
 	box-shadow: 5px 5px 5px black;
+	color: white;
+	background-color: #855005;
+	margin: auto;
+	text-align: right;
+	border-color: black;
+	}
+
+.border {
+	border-style: solid;
+	border-color: black;
+	border-radius: 15px 15px 15px 15px;
+	margin: 20px;
+	box-shadow: 4px 4px 4px;
+	width: 240px;
+
 }
 
-footer {
-	color: white;
-	list-style: none;
-	background-color: black;
+.button-center {
+	text-align: center;
+	padding-bottom: 5px;
 }
 
-li {
-	list-style: none;
-	color: white;
+#bigbloc {
+	padding-left: 130px;
 }
+.prod_title {
+	font-size: 18px;
+	text-align: center;
+	color: #855005;
+}
+
 
 .contact {
 	font-size: 2em;
