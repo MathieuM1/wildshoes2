@@ -1,9 +1,14 @@
 
 h1 {
-	
+	font-size: 200%;
 }
+
 h2 {
-	font-size: 100%;
+	font-size: 150%;
+}
+
+.navbar {
+	background-color: #855005;
 }
 
 .logo {
@@ -16,9 +21,7 @@ h2 {
 	filter: drop-shadow(3px 3px 3px white);
 }
 
-
 .jumbotron {
-	margin-bottom: 0;
     background-image: url(jumbo.jpg);
     background-size: cover;
     background-attachment: fixed;
@@ -29,8 +32,7 @@ h2 {
 }
 
 .glyphicon {
-	text-align: center;
-	margin: auto;
+	width: 400px;
 }
 
 .slogan {
@@ -118,13 +120,22 @@ h2 {
 	
 }
 
-
 .prod_title {
 	font-size: 18px;
 	text-align: center;
 	color: #855005;
 }
 
+.perso {
+	text-align: center;
+	margin: auto;
+}
+
+.imgperso{
+	height: 300px;
+	width: 300px;
+	margin-top: 5%;
+}
 
 .contact {
 	font-size: 2em;
@@ -134,6 +145,7 @@ h2 {
 	background-color: black;
 	height: 100px;
 }
+
 .navbar {
 	background-color: #855005;
 }
@@ -152,3 +164,4 @@ iframe {
 	height: 185px;
 	background-color: #6d4f2b;
 }
+
