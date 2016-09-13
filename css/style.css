@@ -1,12 +1,15 @@
+
 h1 {
-	text-align: center;
+	
 }
 h2 {
 	font-size: 100%;
 }
 
 .logo {
-	margin: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5%;	
 	width: 100vh;
 	height: 20vh;
 	-webkit-filter: drop-shadow(3px 3px 3px white);
@@ -15,13 +18,19 @@ h2 {
 
 
 .jumbotron {
+	margin-bottom: 0;
     background-image: url(jumbo.jpg);
     background-size: cover;
     background-attachment: fixed;
+    text-align: center;
     font-size: 5vh;
     text-shadow: 3px 3px 3px white;
 	color: black;
+}
+
+.glyphicon {
 	text-align: center;
+	margin: auto;
 }
 
 .slogan {
@@ -39,15 +48,13 @@ h2 {
 	text-align: center;
 }
 
-
-
 .left_present {
 	text-align: center;
 	padding: 5%;
 }
 
 .maps2 {
-	text-align: center;
+	text-align: center;	
 }
 
 .social {
