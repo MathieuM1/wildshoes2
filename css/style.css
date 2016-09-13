@@ -58,10 +58,6 @@ h2 {
 	text-align: center;	
 }
 
-.social {
-	height: 80%;
-	width: 20%;
-}
 
 .textmodal {
 	margin-left: auto;
@@ -152,8 +148,15 @@ iframe {
 .contact {
 	font-size: 2em;
 }
-
+.social {
+	height: 40px;
+	width: 40px;
+}
 .center_bloc, .right_bloc, .left_bloc {
 	background-color: black;
 	height: 100px;
 }
+footer {
+	height: 300px;
+	width: 100%;
+
