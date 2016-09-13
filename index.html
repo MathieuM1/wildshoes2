@@ -74,10 +74,10 @@
 		<div class="col-lg-12 col-md-12">
 			<img class="img-responsive logo" src="images/logo.png" alt="logo wild shoes">
 		</div>
-		<div class="col-lg-8 col-md-10 slogan">
-			<h1>Chausse qui peut</h1>
-			<h2>Artisan créateur de chausse-pieds et tire-bottes depuis 1927</h2>
-			<a class="scroll" href="#bigbloc" alt="Accedez directement à nos produits" title="Accedez directement à nos produits" ><span class="glyphicon glyphicon-chevron-down"></span></a>
+		<div class="col-lg-12 col-md-12 slogan">
+			<h1 id="titrejumbo">Chausse qui peut</h1>
+			<h2 id="sloganjumbo">Artisan créateur de chausse-pieds et tire-bottes depuis 1927</h2>
+			<a href="#bigbloc" alt="Accedez directement à nos produits" title="Accedez directement à nos produits" ><span class="glyphicon glyphicon-chevron-down scroll"></span></a>
 		</div>
 	 </div>
   </div>
@@ -328,7 +328,39 @@
                                             <!-- Bloc Personnalisation-->
   <div class="row perso">
     <div class="col-lg-6 col-md-6">
-      <h1>Nouveauté</h1>
+      <span id="elementClignotant"><h1 class="nouveaute">Nouveauté</h1></span>
+<script type="text/javascript">
+function textClignotant()
+{
+    var element = document.getElementById('elementClignotant');
+    var random = Math.round(Math.random()*5);
+     
+    switch (random)
+    {
+        case 0:
+        element.style.color = "red";
+        break;
+         
+        case 1:
+        element.style.color = "green";
+        break;
+         
+        case 2:
+        element.style.color = "blue";
+        break;
+         
+        case 3:
+        element.style.color = "yellow";
+        break;
+         
+        case 4:
+        element.style.color = "purple";
+        break;
+    }
+}
+ 
+window.onload = function(){ setInterval(textClignotant, 1000); };
+</script>
         <h2>Personnaliser vos produits</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -351,10 +383,10 @@
                                     <!-- Fin bloc Personnalisation-->
 
 <!--Partie carte des magasins-->
-<div class="maps">
+<div class="row maps">
 	<div class="col-lg-6 col-md-4 col-sm-12 col-xs-12 left_present">
-		<h2>Nos magasins</h2>
-			<p>Nos magasin sont implantés sur toute la France, Cliquez sur un point pour connaitre l'adresse la plus proche de chez vous</p>
+		<h1>Nos magasins</h1>
+			<h2>>Nos magasin sont implantés sur toute la France, Cliquez sur un point pour connaitre l'adresse la plus proche de chez voluptas</h2>
       <img class="mag" src="images/fond_carte.jpg" alt="Magasins">
 	</div>
 	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 maps2">	
