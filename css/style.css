@@ -61,10 +61,6 @@ h2 {
 
 }
 
-.social {
-	height: 80%;
-	width: 20%;
-}
 
 .textmodal {
 	margin-left: auto;
@@ -164,4 +160,12 @@ iframe {
 	height: 185px;
 	background-color: #6d4f2b;
 }
+.social {
+	height: 40px;
+	width: 40px;
 
+}
+footer {
+	height: 300px;
+	width: 100%;
+}
