@@ -8,6 +8,16 @@ h2 {
 	font-size: 150%;
 }
 
+<<<<<<< HEAD
+=======
+
+#titrejumbo, #sloganjumbo {
+	text-align: center;
+    text-shadow: 3px 3px 3px white;
+	color: black;
+}
+
+>>>>>>> d309ea944632a5bad5ce07b793856d5919507a9b
 .navbar {
 	font-family: 'Allerta Stencil', sans-serif;
 	background-color: #855005;
@@ -54,7 +64,11 @@ a:hover {
     background-size: cover;
     background-attachment: fixed;
 }
-
+.container-fluid {
+	padding-left: 14%;
+	padding-right: 14%;
+	text-align: center;
+}
 .presentation {
 	text-align: center;
 	padding: 2%;
@@ -122,13 +136,12 @@ a:hover {
 	background-image: url(leather.jpg);
 	background-size: cover;
 	background-attachment: fixed;
-	display: block;
-	padding: auto;
+
 }
 .entete_prod {
 
-	text-align: center;
 	margin: auto;
+	padding: ;
 }
 
 .titre_ligne {
@@ -136,6 +149,8 @@ a:hover {
 	color: white;
 	text-shadow: 4px 4px 4px black;
 	font-size: 35px;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 .prod_title {
