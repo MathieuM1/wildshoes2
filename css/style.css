@@ -100,9 +100,7 @@ a:hover {
 	border-style: solid;
 	border-color: #855005;
 	border-radius: 15px 15px 15px 15px;
-	margin: 20px;
 	box-shadow: 4px 4px 4px white;
-	width: 240px;
 	background-color: white;
 }
 
@@ -115,10 +113,8 @@ a:hover {
 	background-image: url(leather.jpg);
 	background-size: cover;
 	background-attachment: fixed;
-	padding-left: 20%;
-	padding-right: 15%;
-
-	
+	display: block;
+	padding: 5%;
 }
 .entete_prod {
 
