@@ -194,17 +194,30 @@ iframe {
 	border: 0px;
 	box-shadow: 5px 5px 5px black;
 }
+
+footer {
+	padding: 2%;
+	background-color: #855005;
+	color: white;
+	text-align: center;
+}
+
+.foot {
+	color: white;
+	font-family: 'Allerta Stencil', sans-serif;
+	list-style: none;
+	font-size: 20px;
+}
+
 .contact {
-	font-size: 2em;
+	font-size: 20px;
 }
 .social {
-	height: 40px;
-	width: 40px;
+	display: inline-block;
+	height: 20px;
+	width: 20px;
 }
-.center_bloc, .right_bloc, .left_bloc {
-	background-color: black;
-	height: 100px;
-}
+
 footer {
 	height: 10%;
 	width: 100%;

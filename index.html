@@ -386,7 +386,7 @@ window.onload = function(){ setInterval(textClignotant, 50); };
 <div class="col-lg-6 col-md-4 col-sm-12 col-xs-12 left_present">
 		
 			
-      <img class="mag" src="images/fond_carte.jpg" alt="Magasins">
+      <img class="mag hidden-sm hidden-xs" src="images/fond_carte.jpg" alt="Magasins">
 	</div>
 	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 maps2">	
 	<iframe src="https://umap.openstreetmap.fr/fr/map/projet-wild_102268#6/47.621/2.296?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&allowEdit=false&moreControl=true&datalayersControl=true&onLoadPanel=undefined&captionBar=false"></iframe><p><a href="https://umap.openstreetmap.fr/fr/map/projet-wild_102268">Voir en plein écran</a></p>
@@ -395,28 +395,32 @@ window.onload = function(){ setInterval(textClignotant, 50); };
 
 <!--Fin de la carte des magasins-->
 
-<!--Début du footer-->
-<footer class="container-fluid">
-<!--Blod de gauche / CGU mentions légales.. -->
-  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 left_bloc">
-    <ul>
-      <a href="#"><li>Mentions légales</li></a>
-      <a href="#"><li>C.G.U.</li></a>
-      <a href="#"><li>A propos de nous</li></a>
-
-    </ul>
-  </div>
-  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 center_bloc">
-    <h1 class="contact">Contactez nous</h1>
-  </div>
-  <!--Bloc de droite / Réseaux sociaux-->
-  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 right_bloc">
-    <a href="http://www.facebook.com"><img class="social" src="images/facebook.png" alt="Facebook"></a>
-    <a href="http://www.twitter.com"><img class="social" src="images/twitter.png" alt="Twitter"></a>
-    <a href="https://fr.pinterest.com/"><img class="social" src="images/pinterest.png" alt="Pinterest"></a>
-  </div>
+                                                  <!--Début du footer-->
+  <footer class="container-fluid">
+    <div class="row">
+                                      <!--Bloc de gauche / CGU mentions légales.. -->
+      <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 left_bloc">
+        <ul>
+          <a href="#"><li class="foot">Mentions légales</li></a>
+          <a href="#"><li class="foot">C.G.U.</li></a>
+          <a href="#"><li class="foot">A propos de nous</li></a>
+        </ul>
+      </div>
+                                              <!-- Fin blocde Gauche -->
+                                                  <!-- Bloc centre -->
+      <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 center_bloc">
+        <h1 class="contact">Contactez nous</h1>
+      </div>
+                                                <!-- Fin Bloc centre -->
+                                        <!--Bloc de droite / Réseaux sociaux-->
+      <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 right_bloc">
+        <a href="http://www.facebook.com"><img class="social img-responsive" src="images/facebook.png" alt="Facebook"></a>
+        <a href="http://www.twitter.com"><img class="social img-responsive" src="images/twitter.png" alt="Twitter"></a>
+        <a href="https://fr.pinterest.com/"><img class="social img-responsive" src="images/pinterest.png" alt="Pinterest"></a>
+      </div>
+                                              <!-- Fin bloc droite -->
+   </div>                                           
   </footer>
+                                              <!-- Fin du Footer -->
 </body>
-</html>
-<!--Test git-->
- 
+</html> 
