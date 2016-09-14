@@ -17,7 +17,7 @@
 <header>
                                                 <!-- Navbar -->
 
-  <nav class="navbar navbar-inverse navbar-fixed-top navigation">
+  <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container-fluid">
                                               <!-- Burger Menu-->
 
@@ -333,7 +333,7 @@
 function textClignotant()
 {
     var element = document.getElementById('elementClignotant');
-    var random = Math.round(Math.random()*5);
+    var random = Math.round(Math.random()*3);
      
     switch (random)
     {
@@ -342,20 +342,12 @@ function textClignotant()
         break;
          
         case 1:
-        element.style.color = "green";
+        element.style.color = "black";
         break;
-         
+
         case 2:
-        element.style.color = "blue";
-        break;
-         
-        case 3:
-        element.style.color = "yellow";
-        break;
-         
-        case 4:
-        element.style.color = "purple";
-        break;
+        element.style.color = "red";
+        break
     }
 }
  
