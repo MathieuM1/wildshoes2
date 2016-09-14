@@ -8,6 +8,7 @@ h2 {
 	font-size: 150%;
 }
 
+
 #titrejumbo, #sloganjumbo {
 	text-align: center;
     text-shadow: 3px 3px 3px white;
@@ -48,7 +49,11 @@ a:hover {
     background-size: cover;
     background-attachment: fixed;
 }
-
+.container-fluid {
+	padding-left: 14%;
+	padding-right: 14%;
+	text-align: center;
+}
 .presentation {
 	text-align: center;
 	padding: 2%;
@@ -116,13 +121,12 @@ a:hover {
 	background-image: url(leather.jpg);
 	background-size: cover;
 	background-attachment: fixed;
-	display: block;
-	padding: auto;
+
 }
 .entete_prod {
 
-	text-align: center;
 	margin: auto;
+	padding: ;
 }
 
 .titre_ligne {
@@ -130,6 +134,8 @@ a:hover {
 	color: white;
 	text-shadow: 4px 4px 4px black;
 	font-size: 35px;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 .prod_title {
@@ -222,4 +228,4 @@ footer {
 footer {
 	height: 10%;
 	width: 100%;
-
+}
