@@ -110,7 +110,7 @@
 <div class="row entete_prod">
 	<h1 class="titre_ligne">Nos chausse-Pieds</h1>
 
-    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 border">
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 border">
       <h1 class="prod_title">Grattoir</h1>
         <div class="button-center">
           <img src="images/grattoir.jpeg" alt="Chausse pied métal" class="imgprod">
@@ -141,7 +141,7 @@
 <!--Fin image produits 1-->
 <!--Début Image produit 2-->
 
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 border">
+<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 border">
     <h1 class="prod_title">Grattoir</h1>
       <div class="button-center">
         <img src="images/grattoir.jpeg" alt="Chausse pied métal" class="imgprod">
@@ -168,7 +168,7 @@
 <!--Fin image produits 2-->
 <!--Début image produits 3-->
 
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 border">
+<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 border">
     <h1 class="prod_title">Téléscopique</h1>
       <div class="button-center">
         <img src="images/téléscopique.jpeg" alt="Chausse pied métal" class="imgprod">
@@ -195,7 +195,7 @@
 <!--Fin Image produits 3-->
 
 <!--Début image produits 4-->
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 border">
+<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 border">
     <h1 class="prod_title">Tire botte métal</h1>
   <div class="button-center">
     <img src="images/tirebotte_metal.jpeg" alt="Chausse pied métal" class="imgprod">
@@ -224,7 +224,7 @@
 <!--Fin Image produits 4-->
 <div class="row entete_prod">
 	<h1 class="titre_ligne">Nos tire-bottes</h1>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 border">
+<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 border">
     <h1 class="prod_title">Chausse pied métal</h1>
       <div class="button-center">
         <img src="images/chausse_pied_metal.jpeg" alt="Chausse pied métal" class="imgprod">
@@ -250,7 +250,7 @@
 <!--Fin image produits 1-->
 <!--Début Image produit 2-->
 
-  <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 border">
+  <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 border">
     <h1 class="prod_title">Grattoir</h1>
       <div class="button-center">
         <img src="images/grattoir.jpeg" alt="Chausse pied métal" class="imgprod">
@@ -276,7 +276,7 @@
 
 <!--Fin image produits 2-->
 <!--Début image produits 3-->
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 border">
+<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 border">
     <h1 class="prod_title">Téléscopique</h1>
   <div class="button-center">
     <img src="images/téléscopique.jpeg" alt="Chausse pied métal" class="imgprod">
@@ -304,7 +304,7 @@
 <!--Fin Image produits 3-->
 
 <!--Début image produits 4-->
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 border">
+<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 border">
     <h1 class="prod_title">Tire botte métal</h1>
   <div class="button-center">
     <img src="images/tirebotte_metal.jpeg" alt="Chausse pied métal" class="imgprod">
@@ -341,7 +341,7 @@
 function textClignotant()
 {
     var element = document.getElementById('elementClignotant');
-    var random = Math.round(Math.random()*3);
+    var random = Math.round(Math.random()*1);
      
     switch (random)
     {
@@ -352,14 +352,10 @@ function textClignotant()
         case 1:
         element.style.color = "black";
         break;
-
-        case 2:
-        element.style.color = "red";
-        break
     }
 }
  
-window.onload = function(){ setInterval(textClignotant, 1000); };
+window.onload = function(){ setInterval(textClignotant, 50); };
 </script>
         <h2>Personnaliser vos produits</h2>
           <p>
