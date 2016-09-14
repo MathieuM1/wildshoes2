@@ -121,13 +121,10 @@ a:hover {
 	border-radius: 15px 15px 15px 15px;
 	box-shadow: 4px 4px 4px black;
 	background-color: white;
-	margin: 4px;
-	width: 200px;
 }
 
 .button-center {
 	text-align: center;
-	padding-bottom: 5px;
 }
 
 #bigbloc {
