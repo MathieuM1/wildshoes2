@@ -67,86 +67,56 @@ a:hover {
 	padding: 2%;
 }
 
-.container-fluid {
-	padding-left: 14%;
-	padding-right: 14%;
-}
+							/* Bloc Produits */
 
-#produits {
-	text-shadow: 3px 3px 3px white;
-	color: black;
-	text-align: center;
-}
-
-.left_present {
-	text-align: center;
-}
-
-.textmodal {
-	margin-left: auto;
-	margin-right: auto;
-	text-align: justify;
-}
-.imgmodal {
-	width: 200px;
-	height: 200px;
-}
-
-.imgprod {
-	height: 130px;
-	width: 130px;
-	margin: auto;
-	padding-left: auto;
-	padding-right: auto;
-	text-align: center;
-}
-
-.back {
-	background-color: grey;
-}
-
-.btn {
-	margin: 20px;
-	box-shadow: 5px 5px 5px black;
-	color: white;
-	background-color: #2e0e03;
-	margin: auto;
-	text-align: right;
-	border-color: black;
-	}
-
-.border {
-	border-style: solid;
-	border-color: #855005;
-	border-radius: 15px 15px 15px 15px;
-	box-shadow: 4px 4px 4px black;
-	background-color: white;
-}
-
-.button-center {
-	text-align: center;
-}
-
-#bigbloc {
+#bloc_produits {
 	background-image: url(leather.jpg);
 	background-size: cover;
 	background-attachment: fixed;
-
-}
-.titre_ligne {
-	text-align: center;
+	text-shadow: 3px 3px 3px black;
 	color: white;
-	text-shadow: 4px 4px 4px black;
-	font-size: 35px;
-	margin-right: auto;
-	margin-left: auto;
+	padding-left: 2%;
+	padding-right: 2%;
 }
 
-.prod_title {
-	font-size: 18px;
+.titre_chaussepied, .titre_tirebotte {
 	text-align: center;
-	color: #855005;
+	text-decoration: underline;
+	font-size: 250%;
 }
+
+.titre_produit {
+	text-align: center;
+	font-size: 180%;
+	font-family: 'Allerta Stencil', sans-serif;
+	color: black;
+}
+
+.btn {
+	margin-left: 40%;
+	background-color: transparent;
+	border-style: none;
+}
+
+.btn:hover {
+	background-color: transparent;
+}
+
+.btn:active {
+	background-color: transparent;	
+}
+
+.glyphicon-plus {
+	color: black;
+}
+
+.img_produit {
+	width: 60%;
+	height: 60%;
+	margin: auto;
+}
+
+							/*Fin Bloc Produits */
 
 .perso {
 	text-align: center;
@@ -156,7 +126,6 @@ a:hover {
 .nouveaute {
 	font-family: 'Allerta Stencil', sans-serif;
 	font-size: 400%;
-	text-decoration: underline;
 }
 
 .imgperso{
