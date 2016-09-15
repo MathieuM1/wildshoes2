@@ -22,11 +22,15 @@ h2 {
 	margin: auto;
 	display: inline-block;
 }
+
 .navwhite {
 	color: white;
 	font-size: 18px;
 	margin-top: 0;
+	width: 100%;
+
 }
+
 .scroll {
 	display: block;
 	text-align: center;
