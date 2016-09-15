@@ -22,7 +22,11 @@ h2 {
 	margin: auto;
 	display: inline-block;
 }
-
+.navwhite {
+	color: white;
+	font-size: 18px;
+	margin-top: 0;
+}
 .scroll {
 	display: block;
 	text-align: center;
@@ -192,16 +196,37 @@ footer {
 
 .contact {
 	font-size: 20px;
-	padding-bottom: 2%;
+	
 }
 .social {
 	display: inline-block;
-	height: 80px;
-	width: 80px;
-	padding-bottom: 2%;
+	height: 60px;
+	width: 60px;
+	margin: 40px 10px 0 10px; 
+
 }
 
-footer {
-	height: 10%;
-	width: 100%;
+.foot_right {
+	text-align: center;
+
+}
+.titre_mentions {
+	text-align: center;
+	color: #2e0e03;
+	font-size: 25px;
+}
+.mentions {
+	text-align: justify;
+	color: black;
+	padding: 10px;
+
+}
+
+.foot_link {
+	text-align: center;
+	color: white;
+	font-size: 18px;
+}
+.addr {
+	font-size: 20px;
 }
