@@ -89,8 +89,11 @@ a:hover {
 	background-attachment: fixed;
 	text-shadow: 3px 3px 3px black;
 	color: white;
-	padding-left: 2%;
-	padding-right: 2%;
+	padding: 3%;
+}
+
+.produit {
+	padding-top: 2%
 }
 
 .titre_chaussepied, .titre_tirebotte {
