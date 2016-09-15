@@ -70,6 +70,12 @@ a:hover {
     background-attachment: fixed;
 }
 
+#click {
+	margin-left: 45%;
+	background-color: transparent;
+	border-style: none;
+}
+
 .presentation {
 	text-align: center;
 	padding: 2%;
@@ -148,11 +154,16 @@ a:hover {
 .perso {
 	text-align: center;
 	margin: auto;
+	padding: 2%;
 }
 
 .nouveaute {
 	font-family: 'Allerta Stencil', sans-serif;
 	font-size: 400%;
+}
+
+.glyphicon-envelope {
+	font-size: 130%;
 }
 
 .imgperso{
