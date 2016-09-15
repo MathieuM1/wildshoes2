@@ -70,6 +70,12 @@ a:hover {
     background-attachment: fixed;
 }
 
+#click {
+	margin-left: 45%;
+	background-color: transparent;
+	border-style: none;
+}
+
 .presentation {
 	text-align: center;
 	padding: 2%;
@@ -83,8 +89,11 @@ a:hover {
 	background-attachment: fixed;
 	text-shadow: 3px 3px 3px black;
 	color: white;
-	padding-left: 2%;
-	padding-right: 2%;
+	padding: 3%;
+}
+
+.produit {
+	padding-top: 2%
 }
 
 .titre_chaussepied, .titre_tirebotte {
@@ -148,11 +157,16 @@ a:hover {
 .perso {
 	text-align: center;
 	margin: auto;
+	padding: 2%;
 }
 
 .nouveaute {
 	font-family: 'Allerta Stencil', sans-serif;
 	font-size: 400%;
+}
+
+.glyphicon-envelope {
+	font-size: 130%;
 }
 
 .imgperso{
