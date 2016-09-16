@@ -38,46 +38,124 @@
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
         <li class="active"><a href="./index.html"><h3 class="navwhite"><span class="glyphicon glyphicon-home"></span></h3> <span class="sr-only">(current)</span></a></li>
+                                            <!-- Dropdown left -->        
         <li class="dropdown">
-        <script>
-          $(document).ready(function (){
-            $("#cp").click(function (){
-              $('html, body').animate({
-                scrollTop: $("#ancrechaussepied").offset().top
-              }, 1000);
-            });
-        });
-        </script>
-          <a href="#" id="cp" class="dropdown-toggle whitetitle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><h3 class="navwhite">Nos Chausse-pieds</h3> <span class="caret"></span></a>
+          <a href="#" class="dropdown-toggle whitetitle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><h3 class="navwhite">Nos Chausse-pieds</h3><span class="caret"></span></a>
             <ul class="dropdown-menu">
-              <li><a href="#chaussepiedbois">Bois</a></li>
-              <li><a href="#chaussepiedmetal">Métal</a></li>
-              <li><a href="#chaussepiedcorne">Corne</a></li>
-              <li><a href="#chaussepiedtele">Téléscopique</a></li>
+                                            
+                    <script>
+                      $(document).ready(function (){
+                        $("#cpbois").click(function (){
+                          $('html, body').animate({
+                            scrollTop: $("#ancrechaussepiedbois").offset().top
+                          }, 1000);
+                        });
+                      });
+                    </script>
+              <li><a href="#" id="cpbois">Bois</a></li>
+
+                    <script>
+                      $(document).ready(function (){
+                        $("#cpmetal").click(function (){
+                          $('html, body').animate({
+                            scrollTop: $("#ancrechaussepiedmetal").offset().top
+                          }, 1000);
+                        });
+                      });
+                    </script>
+              <li><a href="#" id="cpmetal">Métal</a></li>
+
+                    <script>
+                      $(document).ready(function (){
+                        $("#cpcorne").click(function (){
+                          $('html, body').animate({
+                            scrollTop: $("#ancrechaussepiedcorne").offset().top
+                          }, 1000);
+                        });
+                      });
+                    </script>
+              <li><a href="#" id="cpcorne">Corne</a></li>
+
+                    <script>
+                      $(document).ready(function (){
+                        $("#cptele").click(function (){
+                          $('html, body').animate({
+                            scrollTop: $("#ancrechaussepiedtele").offset().top
+                          }, 1000);
+                        });
+                      });
+                    </script>
+              <li><a href="#" id="cptele">Téléscopique</a></li>
+
               <li role="separator" class="divider"></li>
-              <li><a href="#personnalisation">Personnalisation</a></li>
+
+                    <script>
+                      $(document).ready(function (){
+                        $("#cpperso").click(function (){
+                          $('html, body').animate({
+                            scrollTop: $("#personnalisation").offset().top
+                          }, 1000);
+                        });
+                      });
+                    </script>
+              <li><a href="#" id="cpperso">Personnalisation</a></li>
             </ul>
         </li>
         
+                                                          <!-- Fin Dropdown left -->
+                                                            <!-- Dropdown Right -->
           <li class="dropdown">
-        <script>
-          $(document).ready(function (){
-            $("#tb").click(function (){
-              $('html, body').animate({
-                scrollTop: $("#ancretirebotte").offset().top
-              }, 1000);
-            });
-        });
-        </script>
             <a href="#" id="tb" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><h3 class="navwhite">Nos tire-bottes</h3> <span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="#tirebottebois">Bois</a></li>
-                <li><a href="#tirebottemetal">Métal</a></li>
-                <li><a href="#grattoir">Grattoir</a></li>
-                <li role="separator" class="divider"></li>
-                <li><a href="#personnalisation">Personnalisation</a></li>
-              </ul>
-          </li>
+                                            
+                    <script>
+                      $(document).ready(function (){
+                        $("#tbbois").click(function (){
+                          $('html, body').animate({
+                            scrollTop: $("#ancretirebottebois").offset().top
+                          }, 1000);
+                        });
+                      });
+                    </script>
+              <li><a href="#" id="tbbois">Bois</a></li>
+
+                    <script>
+                      $(document).ready(function (){
+                        $("#tbmetal").click(function (){
+                          $('html, body').animate({
+                            scrollTop: $("#ancretirebottemetal").offset().top
+                          }, 1000);
+                        });
+                      });
+                    </script>
+              <li><a href="#" id="tbmetal">Métal</a></li>
+
+                    <script>
+                      $(document).ready(function (){
+                        $("#tbgrattoir").click(function (){
+                          $('html, body').animate({
+                            scrollTop: $("#ancregrattoir1").offset().top
+                          }, 1000);
+                        });
+                      });
+                    </script>
+              <li><a href="#" id="tbgrattoir">Grattoirs</a></li>
+
+              <li role="separator" class="divider"></li>
+
+                    <script>
+                      $(document).ready(function (){
+                        $("#tbperso").click(function (){
+                          $('html, body').animate({
+                            scrollTop: $("#personnalisation").offset().top
+                          }, 1000);
+                        });
+                      });
+                    </script>
+              <li><a href="#" id="tbperso">Personnalisation</a></li>
+            </ul>
+        </li>
+                                                            <!-- Fin Dropdown Right -->
               <ul class="nav navbar-nav navbar-right">
                       <script>
           $(document).ready(function (){
@@ -127,7 +205,6 @@
                                                 <!-- Bloc Présentation -->
 <div id="qui" class="presentation">
 	<div class="container-fluid" id="iam">
-		<div class="hidden-xs">
 			<h1>Qui sommes nous?</h1>
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -136,7 +213,6 @@
 				</p>
 		
 		</div>
-	</div>
 </div>
                                                 <!--Fin du div presentation-->
 
@@ -144,10 +220,10 @@
 
 <div id="bloc_produits">
                                                   <!-- Bloc chausse-pieds -->
-  <div class="row chaussepied" id="ancrechaussepied">
+  <div class="row chaussepied">
     <h1 class="titre_chaussepied">Nos chausse-pieds</h1>
                                                       <!-- Produit 1 -->
-    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 produit">
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 produit" id="ancrechaussepiedbois">
     <div class="thumbnail">
       <img src="images/chausse_pied_bois.jpeg" alt="chausse pied bois" class="img-responsive img_produit">
       <div class="caption">
@@ -182,7 +258,7 @@
                                                     <!-- Fin Produit 1 -->
 
                                                       <!-- Produit 2 -->
-    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 produit">
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 produit" id="ancrechaussepiedmetal">
     <div class="thumbnail">
       <img src="images/chausse_pied_metal.jpeg" alt="chausse-pied métal" class="img-responsive img_produit">
       <div class="caption">
@@ -217,7 +293,7 @@
                                                     <!--  Fin Produit 2 -->
 
                                                       <!-- Produit 3 -->
-    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 produit">
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 produit" id="ancrechaussepiedcorne">
     <div class="thumbnail">
       <img src="images/chausse-pied-en-corne-veritable.jpg" alt="chausse-pied corne" class="img-responsive img_produit">
       <div class="caption">
@@ -252,7 +328,7 @@
                                                     <!--  Fin Produit 3 -->
 
                                                       <!-- Produit 4 -->
-    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 produit">
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 produit" id="ancrechaussepiedtele">
     <div class="thumbnail">
       <img src="images/téléscopique.jpeg" alt="chausse-pied téléscopique" class="img-responsive img_produit">
       <div class="caption">
@@ -289,10 +365,10 @@
                                                 <!-- Fin Bloc chausse-pieds -->
 
                                                   <!-- Bloc tire-bottes -->
-  <div class="row tirebotte" id="ancretirebotte">
+  <div class="row tirebotte">
     <h1 class="titre_tirebotte">Nos tire-bottes et grattoirs</h1>
                                                     <!-- Produit 5 -->
-    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 produit">
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 produit" id="ancretirebottebois">
     <div class="thumbnail">
       <img src="images/tirebotte_bois.jpeg" alt="tire-botte bois" class="img-responsive img_produit">
       <div class="caption">
@@ -327,7 +403,7 @@
                                                     <!--  Fin Produit 5 -->
 
                                                       <!-- Produit 6 -->
-    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 produit">
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 produit" id="ancretirebottemetal">
     <div class="thumbnail">
       <img src="images/tirebotte_metal.jpeg" alt="tire-botte métal" class="img-responsive img_produit">
       <div class="caption">
@@ -362,7 +438,7 @@
                                                     <!--  Fin Produit 6 -->
 
                                                       <!-- Produit 7 -->     
-    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 produit">
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 produit" id="ancregrattoir1">
     <div class="thumbnail">
       <img src="images/grattoir.jpeg" alt="grattoir" class="img-responsive img_produit">
       <div class="caption">
@@ -397,7 +473,7 @@
                                                     <!--  Fin Produit 7 -->
 
                                                       <!-- Produit 8 -->
-    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 produit">
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 produit" id="ancregrattoir1">
     <div class="thumbnail">
       <img src="images/grattoir2.jpg" alt="grattoir" class="img-responsive img_produit">
       <div class="caption">
@@ -437,9 +513,8 @@
 
 
 
-                                            <!-- Bloc Personnalisation-->
- <div id="personnalisation">                                           
-  <div class="row perso">
+                                            <!-- Bloc Personnalisation-->                                          
+  <div class="row perso" id="personnalisation">
     <div class="col-lg-6 col-md-6">
       <h1 class="nouveaute">Nouveauté <span class="label label-danger">New</span></h1>
         <h2>Personnaliser vos produits</h2>
