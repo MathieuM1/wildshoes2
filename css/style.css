@@ -94,6 +94,7 @@ a:hover {
 
 .produit {
 	padding-top: 2%
+	opacity:0.5;
 }
 
 .titre_chaussepied, .titre_tirebotte {
