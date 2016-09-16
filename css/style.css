@@ -23,12 +23,15 @@ h2 {
 	display: inline-block;
 }
 
+.caret {
+	margin-left: 45%;
+}
+
 .navwhite {
 	color: white;
 	font-size: 18px;
 	margin-top: 0;
-	width: 100%;
-
+	width: 100%;	
 }
 
 .scroll {
